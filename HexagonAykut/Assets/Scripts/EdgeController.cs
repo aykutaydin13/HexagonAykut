@@ -119,18 +119,18 @@ public class EdgeController : MonoBehaviour
 
 
         //Bomb Counter ı kontrol et 
-        if (ScoreScript.scoreValue % 200 <5 && ScoreScript.scoreValue > 5)
-        {
-            isBombActive = true;
-        }
-        if (!isBombActive)
-        {
-            BombCounterSprite.bombCounter = 7;
-        }
-        if (BombCounterSprite.bombCounter == 0)
-        {
-            isGameOver = true;
-        }
+        //if (ScoreScript.scoreValue % 1000 <5 && ScoreScript.scoreValue > 5)
+        //{
+        //    isBombActive = true;
+        //}
+        //if (!isBombActive)
+        //{
+        //    BombCounterSprite.bombCounter = 7;
+        //}
+        //if (BombCounterSprite.bombCounter == 0)
+        //{
+        //    isGameOver = true;
+        //}
 
     }
 
